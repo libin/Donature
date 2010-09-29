@@ -1,0 +1,43 @@
+body {
+	background-color: #ddd;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font: 20px/24px palatino;
+}
+
+.container {
+	text-align: left;
+	background-color: #fff;
+	padding: 10px 30px;
+	margin: 0 auto;
+	width: 525px;
+}
+
+.footer {
+	margin-top: 80px;
+	padding-top: .5em;
+	border-top: 1px solid #ddd;
+	color: #999;
+	font-size: 70%;
+	clear: both;
+}
+
+label {
+	float: left;
+	width: 500px;
+	clear: both;
+	margin-top: 1em;
+	font-size: 70%;
+}
+input {
+	margin-top: 1em;
+	float: left;
+	width: 200px;
+}
+#submit {
+	clear: both;
+	margin-bottom: 3em;
+}

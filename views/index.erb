@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Fundy! Fundraise—with muscle.</title>
+
+	<link rel="stylesheet" href="css/fundy.css" type="text/css" media="screen" />
+</head>
+<body id=''>
+
+<div class="container">
+<h1><img src="/images/splash.png"></h1>
+<p>We'll automatically send out some donation invoices for you. Just tell us who to target:</p>
+
+<form action="/freshbooks" method="POST">
+	
+	<label for="what">What type of businesses?</label>
+	<input type="text" name="what" value="Jewellery">
+
+	<label for="where">In which city?</label>
+	<input type="text" name="where" value="Toronto">	
+
+	<label for="where">How much do you want from them?</label>
+	<input type="text" name="howmuch" value="$40.00">		
+	
+	<input id="submit" type="submit"/ value="Send invoices!">
+	
+</form>
+
+<p class="footer">Powered by the Yellow Pages API and the Freshbooks API. Developed by Libin Pan and Andrew Louis</p>
+
+</div>
+
+</body>
+</html>
